@@ -147,7 +147,7 @@ class Play:
         self.board.starting_setup()
 
         # Display the initial board (for debugging purposes)
-        self.board.debug_display()
+        # self.board.debug_display()
 
         # Continue playing until the game is over
         while self.game_on:
